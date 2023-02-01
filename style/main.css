@@ -402,7 +402,6 @@ ul {
   background: url(../img/background-pluses.svg);
   background-repeat: no-repeat;
   background-position: 95% 0;
-  padding-bottom: 6000px;
 }
 
 .upper-title {
@@ -519,4 +518,91 @@ ul {
   height: 100px;
   position: absolute;
   content: "";
+}
+
+/* Destinations-block */
+
+.destinatoins {
+  width: 100%;
+  background: url(../img/bg-decore.png);
+  background-repeat: no-repeat;
+  background-position: 87% 55%;
+  overflow: auto;
+  padding-bottom: 185px;
+}
+
+.destination-list {
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.destination-item {
+  float: left;
+}
+
+.destination-list-inner {
+  display: block;
+  margin-left: 80px;
+}
+
+.destination-item:not(:last-child) {
+  margin-right: 35px;
+}
+
+.destination-item-img {
+  width: 314px;
+  height: 327px;
+  border-radius: 36px 36px 0 0;
+  display: flex;
+}
+
+.destination-info {
+  width: 315px;
+  background-color: #fff;
+  border-radius: 0 0 36px 36px;
+  height: 130px;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+}
+
+.location {
+  font-family: 'Poppins';
+  font-weight: 300;
+  color: #5E6282;
+  font-size: 18px;
+  line-height: 124.5%;
+  display: block;
+  float: left;
+  margin-top: 27px;
+  margin-left: 20px;
+}
+
+.cost {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 124.5%;
+  color: #5E6282;
+  padding-top: 27px;
+  padding-left: 220px;
+}
+
+.icon {
+  margin-top: 27px;
+  margin-left: 20px;
+}
+
+i {
+  display: block;
+  float: left;
+}
+
+.days-trip {
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 124.5%;
+  color: #5E6282;
+  display: block;
+  padding-left: 35px;
 }
