@@ -599,6 +599,11 @@ ul {
 
 /* Trip-block */
 
+.trip-block {
+  width: 100%;
+  margin-bottom: 200px;
+}
+
 .trip-inner {
   width: 100%;
 }
