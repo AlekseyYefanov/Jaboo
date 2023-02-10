@@ -826,12 +826,42 @@ img.trip-icon {
   margin: 0 auto;
   max-width: 750px;
 }
+.category-block {
+  background-image: none;
+}
+
+.destinations-block {
+  background-image: none;
+}
 }
 
 @media (max-width: 768px) {  
   .trip-item {
     margin-left: 0px;
     margin-top: 50px;
+}
+.hero {
+  display: none;
+}
+
+.header {
+  display: none;
+}
+
+.demo-btn {
+  margin-left: 25px;
+}
+
+.category-item {
+  display: flex;
+
+}
+.category-item:hover .red-box::before {
+  display: none;
+}
+
+.destinations-block {
+  background-image: none;
 }
 }
 
