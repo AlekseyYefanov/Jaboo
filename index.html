@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@500;600&family=Poppins:wght@400;500;700&family=Volkhov:wght@700&display=swap" rel="stylesheet">
     <title>Travel Jadoo</title>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
 </head>
 <body>
     <div class="intro-block">
@@ -145,7 +148,7 @@
                 </div>
             </div>
         </section>
-        <section class="trip-block">
+        <!-- <section class="trip-block">
             <div class="container">
                 <div class="trip-inner">
                     <div class="trip-info">
@@ -200,6 +203,45 @@
                     </div>
                 </div>
             </div>
+        </section> -->
+        <section class="sliders">
+            <div class="container">
+                <div class="testimonials">
+                    <div class="about-as">
+                        <h3 class="subtitle-testimonials">Testimonials</h3>
+                        <h2 class="title-testimonials">What people say about Us.</h2>
+                    </div>
+                    <div class="about-as">
+                        <h3 class="subtitle-testimonials">Testimonials</h3>
+                        <h2 class="title-testimonials">What people say about Us.</h2>
+                    </div>
+                    <div class="about-as">
+                        <h3 class="subtitle-testimonials">Testimonials</h3>
+                        <h2 class="title-testimonials">What people say about Us.</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <img class="testimonial-img" src="./img/testimonials-img.png" alt="">
+                <p class="testimonial-txt">“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</p>
+                <h3 class="testimonial-name">Mike taylor</h3>
+                <h4 class="testimonial-location">Lahore, Pakistan</h4>
+            </div>
+            
         </section>
     </main>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.testimonials').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+            });
+        });
+    </script>
+    
 </body>
