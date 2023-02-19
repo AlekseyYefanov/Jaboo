@@ -913,6 +913,7 @@ img.trip-icon {
 .info-item-wrapper {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 85px;
 }
 
 .info-item-left {
@@ -987,6 +988,18 @@ img.trip-icon {
   width: 105px;
   height: 35px;
   margin-left: 10px;
+}
+
+.info-email {
+  display: block;
+  text-align: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 124.5%;
+  color: #5E6282;
+  padding-bottom: 80px;
 }
 
 @media (max-width: 1200px) { 
