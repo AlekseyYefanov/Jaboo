@@ -607,7 +607,7 @@ ul {
 
 .trip-block {
   width: 100%;
-  /* margin-bottom: 200px; */
+  margin-bottom: 200px; 
 }
 
 .trip-inner {
@@ -808,12 +808,11 @@ img.trip-icon {
 /*  sliders  */
 .sliders {
   overflow: auto;
+  margin-bottom: 100px;
 }
 
 .testimonials {
-  /* width: 50%; */
   background-color: transparent;
-  /* float: left; */
 }
 
 .about-as {
@@ -855,9 +854,9 @@ img.trip-icon {
   float: left;
 }
 
-.testimonial-img {
+.owl-carousel .testimonial-card .testimonial-img {
   position: relative;
-  right: 60px;
+  right: 25px;
   width: 70px;
   height: 70px;
 }
@@ -896,16 +895,21 @@ img.trip-icon {
 }
 
 .sliders-wrap {
-  overflow: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
 }
 
 .testimonials-box {
-  float: left;
   width: 50%;
 }
 
 .slick-dots li button:before {
     font-size: 12px;  
+}
+
+.owl-carousel {
+  width: 50%;
 }
 
 /* footer */
