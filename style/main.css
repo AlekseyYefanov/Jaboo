@@ -1010,14 +1010,18 @@ img.trip-icon {
 
 .information-form-block {
   margin-bottom: 170px;
+  background-image: url(../img/form-block-bg-decore.png);
+  background-repeat: no-repeat;
+  background-position: 98% 130%;
 }
 
 .information-item {
-  background-color: #DFD7F9;
+  background-color: #F0ECFC;
   width: 100%;
   height: 400px;
   border-radius: 130px 20px 20px 20px;
 }
+
 
 .information-form-title {
   font-family: 'Poppins';
@@ -1039,18 +1043,45 @@ img.trip-icon {
   bottom: 20px;
 }
 
-.form-icon {
-  width: 21px;
-  height: 18px;
+.email-form {
+  width: 420px;
+  height: 70px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  border: none;
+  margin-top: 50px;
+  margin-left: 250px;
 }
 
-.form-txt {
+::placeholder {
   font-family: 'Montserrat';
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   color: #39425D;
+  padding-left: 30px;
 }
+
+.subscribe-btn {
+  width: 180px;
+  height: 70px;
+  background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+  border-radius: 10px;
+  border: none;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.subscribe-btn-txt {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* media */
 
 @media (max-width: 1200px) { 
   .header-inner nav {
