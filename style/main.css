@@ -1023,16 +1023,29 @@ img.trip-icon {
 
 .information-form-block {
   margin-bottom: 170px;
+  position: relative;
+}
+
+.information-form-block:after {
+  content: "";
   background-image: url(../img/form-block-bg-decore.png);
   background-repeat: no-repeat;
-  background-position: 98% 130%;
+  background-position: center;
+  background-size: contain;
+  display: block;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  right: 0;
+  bottom: -70px;
 }
 
 .information-item {
-  background-color: #F0ECFC;
+  background-image: url(../img/form-block-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
   height: 400px;
-  border-radius: 130px 20px 20px 20px;
 }
 
 
@@ -1056,6 +1069,11 @@ img.trip-icon {
   bottom: 20px;
 }
 
+label {
+  width: 100%;
+  height: 100%;
+}
+
 .email-form {
   width: 420px;
   height: 70px;
@@ -1064,6 +1082,7 @@ img.trip-icon {
   border: none;
   margin-top: 50px;
   margin-left: 250px;
+  padding-left: 25px;
 }
 
 ::placeholder {
@@ -1072,7 +1091,10 @@ img.trip-icon {
   font-size: 14px;
   line-height: 17px;
   color: #39425D;
-  padding-left: 30px;
+  background-image: url(../img/envelope-icon.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  padding-left: 35px;
 }
 
 .subscribe-btn {
