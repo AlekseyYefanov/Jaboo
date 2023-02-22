@@ -742,6 +742,17 @@ ul {
   color: #84829A;
 }
 
+.like {
+  width: 20px;
+  height: 19px;
+  cursor: pointer;
+  float: right;
+  margin-top: -14px;
+  margin-right: 25px;
+  position: relative;
+  z-index: 10;
+}
+
 .rome-trip-item {
   width: 263px;
   height: 129px;
@@ -912,6 +923,7 @@ img.trip-icon {
 .owl-carousel {
   width: 50%;
 }
+
 
 /* footer */
 
