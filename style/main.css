@@ -351,10 +351,6 @@ ul {
     float: left;
 }
 
-.intro-buttons {
-  overflow: auto;
-}
-
 .demo-btn {
   background: transparent;
   border: none;
