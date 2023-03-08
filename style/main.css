@@ -333,19 +333,9 @@ ul {
 }
 
 .intro-buttons {
-    height: 60px;
     width: 385px;
 }
 
-.find-label {
-  display: block;
-  float: left;
-}
-
-.play-label {
-  float: left;
-  display: block;
-}
 
 .find-btn {
     width: 170px;
@@ -358,6 +348,11 @@ ul {
     border-radius: 10px;
     cursor: pointer;
     box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
+    float: left;
+}
+
+.intro-buttons {
+  overflow: auto;
 }
 
 .demo-btn {
